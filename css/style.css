@@ -52,7 +52,6 @@ body {
     display: flex;
     flex-direction: column;
     overflow: clip;
-    overflow: hidden;
 }
 
 .container {
@@ -227,6 +226,7 @@ body {
 
 .hero-wrapp-images {
     position: relative;
+    overflow: hidden;
 }
 
 .wrapp-hero-button {
@@ -269,11 +269,9 @@ body {
     .hero {
         padding-top: 22px;
         padding-bottom: 50px;
-        overflow: hidden;
     }
     .hero .container {
         grid-template-columns: 1fr;
-        overflow: hidden;
     }
     .hero-wrapp-images {
         grid-row-start: 1;
