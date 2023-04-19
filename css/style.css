@@ -52,6 +52,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow: clip;
+    overflow: hidden;
 }
 
 .container {
@@ -268,9 +269,11 @@ body {
     .hero {
         padding-top: 22px;
         padding-bottom: 50px;
+        overflow: hidden;
     }
     .hero .container {
         grid-template-columns: 1fr;
+        overflow: hidden;
     }
     .hero-wrapp-images {
         grid-row-start: 1;
@@ -283,9 +286,6 @@ body {
     .wrapp-hero-text {
         max-width: none;
     }
-    .hero-image {
-        width: 500px;
-    }
 }
 
 @media(max-width:767.98px) {
@@ -295,14 +295,6 @@ body {
     }
     .hero-title {
         font-size: 40px;
-    }
-    .hero-image {
-        width: 300px;
-    }
-    @media(max-width:469.98px) {
-        .hero-image {
-            width: 200px;
-        }
     }
 }
 
